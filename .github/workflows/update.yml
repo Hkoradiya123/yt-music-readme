@@ -1,9 +1,9 @@
 name: Update README
 
 on:
+  workflow_dispatch:   # 👈 manual trigger
   schedule:
-    - cron: "0 * * * *"  # every 1 hour
-  workflow_dispatch:
+    - cron: "0 * * * *"  # optional (keep or remove)
 
 jobs:
   update:
