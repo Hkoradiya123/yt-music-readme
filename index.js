@@ -61,9 +61,13 @@ ${cards}
         const readme = fs.readFileSync("README.md", "utf-8");
 
         const newReadme = readme.replace(
-            /<!-- MUSIC:START -->[\\s\\S]*<!-- MUSIC:END -->/,
+            /<!-- MUSIC:START -->[\s\S]*<!-- MUSIC:END -->/,
             `<!-- MUSIC:START -->\n${content}\n<!-- MUSIC:END -->`
         );
+
+        if (newReadme === readme) {
+            throw new Error("README marker block was not replaced");
+        }
 
         fs.writeFileSync("README.md", newReadme);
 
