@@ -4,6 +4,19 @@ const fetch = require("node-fetch");
 const USERNAME = "Hkoradiya123";
 const API_KEY = process.env.LASTFM_API_KEY; // 🔐 secure
 
+function pickTrackImage(track) {
+    const images = Array.isArray(track.image) ? track.image : [];
+
+    // Last.fm often leaves the largest slot empty, so scan for the first real URL.
+    const candidates = images
+        .map((entry) => entry?.["#text"] || "")
+        .map((url) => url.trim())
+        .filter(Boolean);
+
+    return candidates[candidates.length - 1] ||
+        "https://via.placeholder.com/150?text=No+Cover";
+}
+
 async function updateReadme() {
     try {
         const res = await fetch(
@@ -22,13 +35,7 @@ async function updateReadme() {
         const cards = tracks.map((t) => {
             const name = t.name || "Unknown";
             const artist = t.artist?.["#text"] || "Unknown";
-            const imgRaw = t.image?.[3]?.["#text"];
-
-            // ✅ fallback image fix
-            const img =
-                imgRaw && imgRaw.trim() !== ""
-                    ? imgRaw
-                    : "https://via.placeholder.com/150?text=No+Cover";
+            const img = pickTrackImage(t);
 
             const url = t.url || "#";
             const nowPlaying = t["@attr"]?.nowplaying;
