@@ -1,3 +1,3 @@
 ## 🎧 My Music
 
-![Music](https://github.com/YOUR_USERNAME/yt-music-readme/blob/main/README.md)
+![Music](https://github.com/Hkoradiya123/yt-music-readme/blob/main/README.md)
