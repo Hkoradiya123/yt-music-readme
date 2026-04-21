@@ -1,12 +1,9 @@
-name: Update README
+name: Update Music
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
-
-permissions:
-  contents: write
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
 
 jobs:
   update:
@@ -14,20 +11,21 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
+        uses: actions/checkout@v3
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: "18"
 
-      - name: Install deps
-        run: npm install
+      - name: Install dependencies
+        run: npm install node-fetch
 
       - name: Run script
         run: node index.js
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+
 
       - name: Commit changes
         run: |

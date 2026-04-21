@@ -2,7 +2,7 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 
 const USERNAME = "Hkoradiya123";
-const API_KEY = "1edeb5cd45110ebb56880c005039b503"; 
+const API_KEY = process.env.LASTFM_API_KEY; // 🔐 secure
 
 async function updateReadme() {
     try {
@@ -13,10 +13,7 @@ async function updateReadme() {
         const data = await res.json();
 
         if (!data.recenttracks || !data.recenttracks.track) {
-            fs.writeFileSync(
-                "README.md",
-                `## 🎧 Recently Played\n\n⚠️ No data available`
-            );
+            console.log("No tracks found");
             return;
         }
 
@@ -25,42 +22,54 @@ async function updateReadme() {
         const cards = tracks.map((t) => {
             const name = t.name || "Unknown";
             const artist = t.artist?.["#text"] || "Unknown";
-            const img = t.image?.[3]?.["#text"]; // large image
+            const imgRaw = t.image?.[3]?.["#text"];
+
+            // ✅ fallback image fix
+            const img =
+                imgRaw && imgRaw.trim() !== ""
+                    ? imgRaw
+                    : "https://via.placeholder.com/150?text=No+Cover";
+
             const url = t.url || "#";
             const nowPlaying = t["@attr"]?.nowplaying;
 
             return `
-<a href="${url}" target="_blank">
-  <img src="${img}" width="120" style="margin:10px;border-radius:10px;" />
-</a>
-<br/>
-<b>${name}</b><br/>
-<sub>${artist}</sub><br/>
-${nowPlaying ? "🟢 Now Playing" : ""}
-<br/><br/>
+<td align="center">
+  <a href="${url}">
+    <img src="${img}" width="120" style="border-radius:10px;" /><br/>
+    <b>${name}</b><br/>
+    <sub>${artist}</sub><br/>
+    ${nowPlaying ? "🟢 Now Playing" : ""}
+  </a>
+</td>
 `;
         }).join("");
 
         const content = `
-<h2 align="center">🎧 Recently Played (YouTube Music)</h2>
+<h3 align="center">🎧 Recently Played</h3>
 
-<div align="center">
-
+<table align="center">
+<tr>
 ${cards}
+</tr>
+</table>
 
-</div>
-
----
-
-<p align="center">🔄 Auto-updated via Last.fm</p>
+<p align="center">🕒 Last Updated: ${new Date().toLocaleString()}</p>
 `;
 
-        fs.writeFileSync("README.md", content);
-    } catch (err) {
-        fs.writeFileSync(
-            "README.md",
-            `## 🎧 Recently Played\n\n❌ Error loading music`
+        // ✅ IMPORTANT: Do NOT overwrite full README
+        const readme = fs.readFileSync("README.md", "utf-8");
+
+        const newReadme = readme.replace(
+            /<!-- MUSIC:START -->[\\s\\S]*<!-- MUSIC:END -->/,
+            `<!-- MUSIC:START -->\n${content}\n<!-- MUSIC:END -->`
         );
+
+        fs.writeFileSync("README.md", newReadme);
+
+        console.log("README updated!");
+    } catch (err) {
+        console.error("Error:", err);
     }
 }
 
