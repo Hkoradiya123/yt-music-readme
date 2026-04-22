@@ -44,70 +44,66 @@ jobs:
           items = (data or {}).get("recent") or []
 
           def time_label(row):
-            value = row.get("received_at_human") or row.get("time_ago") or row.get("played_at_human") or row.get("timestamp_human")
-            return value or ""
+              value = row.get("received_at_human") or row.get("time_ago") or row.get("played_at_human") or row.get("timestamp_human")
+              return value or ""
 
           def artwork_url(row):
-            return row.get("artwork_url") or row.get("image") or "https://via.placeholder.com/300x300?text=No+Cover"
+              return row.get("artwork_url") or row.get("image") or "https://via.placeholder.com/300x300?text=No+Cover"
 
-          recent_rows = items[:3]
+          def clean_album(value):
+              text = str(value or "").strip()
+              if text.lower() in {"", "false", "none", "null"}:
+                  return ""
+              return text
+
+          recent_rows = (items or [])[:3]
+
           if item:
-            current_artist = item.get("artist", "Unknown")
-            current_track = item.get("track", "Untitled")
-            current_album = item.get("album", "")
-            current_time = time_label(item)
+              current_artist = escape(str(item.get("artist", "Unknown")))
+              current_track = escape(str(item.get("track", "Untitled")))
+              current_time = escape(str(time_label(item)))
           else:
-            current_artist = "No active track"
-            current_track = ""
-            current_album = ""
-            current_time = ""
+              current_artist = "No active track"
+              current_track = ""
+              current_time = ""
 
           card_html = []
           card_html.append('<h3 align="left">Recently Played</h3>')
-          card_html.append('<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:separate;border-spacing:14px 0;">')
+          card_html.append('<table width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;table-layout:fixed;">')
           card_html.append('<tr>')
 
-          for row in recent_rows:
-            artist = escape(str(row.get("artist", "Unknown")))
-            track = escape(str(row.get("track", "Untitled")))
-            album = escape(str(row.get("album", "")))
-            time_text = escape(str(time_label(row)))
-            image = escape(str(artwork_url(row)))
-            album_html = f'<div style="font-size:12px;color:#8f8f9f;margin-top:6px;">{album}</div>' if album else ""
-            card_html.append(
-              '<td valign="top" width="33.333%" style="padding:0;">'
-              '<div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;">'
-              '<table width="100%" cellspacing="0" cellpadding="0">'
-              '<tr>'
-              f'<td width="118" style="padding-right:14px;vertical-align:middle;"><img src="{image}" alt="{track}" width="118" height="118" style="display:block;border-radius:12px;object-fit:cover;" /></td>'
-              '<td style="vertical-align:middle;">'
-              f'<div style="font-size:18px;line-height:1.2;font-weight:700;color:#f3f3f7;margin-bottom:6px;">{track}</div>'
-              f'<div style="font-size:14px;line-height:1.35;color:#b6b6c7;margin-bottom:10px;">{artist}</div>'
-              f'<div style="font-size:13px;color:#9d6bff;font-weight:600;">{time_text}</div>'
-              f'{album_html}'
-              '</td>'
-              '</tr>'
-              '</table>'
-              '</div>'
-              '</td>'
-            )
+          for i in range(3):
+              row = recent_rows[i] if i < len(recent_rows) else {}
+              artist = escape(str(row.get("artist", "No artist")))
+              track = escape(str(row.get("track", "No track")))
+              album = escape(clean_album(row.get("album", "")))
+              time_text = escape(str(time_label(row))) or "-"
+              image = escape(str(artwork_url(row)))
+              album_html = f'<div style="font-size:12px;color:#9fa4b4;margin-top:4px;">{album}</div>' if album else ""
+
+              card_html.append(
+                  '<td valign="top" width="33.333%" style="padding:6px;">'
+                  '<div style="background:#111827;border:1px solid #2b2f43;border-radius:14px;padding:10px;">'
+                  f'<img src="{image}" alt="{track}" width="100%" style="display:block;border-radius:10px;aspect-ratio:1/1;object-fit:cover;" />'
+                  f'<div style="font-size:15px;line-height:1.3;font-weight:700;color:#f8fafc;margin-top:10px;word-break:break-word;">{track}</div>'
+                  f'<div style="font-size:13px;line-height:1.35;color:#c0c6d8;margin-top:4px;word-break:break-word;">{artist}</div>'
+                  f'{album_html}'
+                  f'<div style="font-size:12px;color:#9d6bff;font-weight:600;margin-top:8px;">{time_text}</div>'
+                  '</div>'
+                  '</td>'
+              )
 
           card_html.append('</tr>')
           card_html.append('</table>')
           card_html.append('')
-          card_html.append('<div style="font-size:12px;color:#8f8f9f;margin-top:8px;">')
-          if current_track:
-            current_line = f'Now playing: <strong>{escape(current_track)}</strong> by {escape(current_artist)}'
-            if current_album:
-              current_line += f' • {current_album}'
-            if current_time:
-              current_line += f' • {escape(current_time)}'
-            card_html.append(current_line)
-          else:
-            card_html.append(f'Now playing: {escape(current_artist)}')
-          card_html.append('</div>')
+
+          now_line = f'Now playing: <strong>{current_track}</strong> by {current_artist}' if current_track else 'Now playing: No active track'
+          if current_time:
+              now_line += f' • {current_time}'
+
           last_updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-          card_html.append(f'<div style="font-size:12px;color:#8f8f9f;margin-top:6px;">Last updated: {last_updated}</div>')
+          card_html.append(f'<div style="font-size:12px;color:#93a0b8;margin-top:8px;">{now_line}</div>')
+          card_html.append(f'<div style="font-size:12px;color:#93a0b8;margin-top:4px;">Last updated: {last_updated}</div>')
 
           music_block = "\n".join(card_html) + "\n"
           with open("MUSIC.md", "w", encoding="utf-8") as f:
