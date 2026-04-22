@@ -59,14 +59,6 @@ Aman Jakhar
 
 
 
-## 📊 Stats
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Tracks-128-111827?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Time-9h42m-111827?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Artists-23-111827?style=for-the-badge"/>
-</p>
-
 ---
 
 <p align="center">
