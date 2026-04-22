@@ -215,13 +215,23 @@ The section below is auto-updated by GitHub Actions.
 
 <!-- MUSIC:START -->
 
-## Now Playing
-- No active track
+<h3 align="left">Recently Played</h3>
 
-## Recent 3 Tracks
-1. No recent scrobbles
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:separate;border-spacing:14px 0;">
+<tr>
+<td valign="top" width="33.333%" style="padding:0;">
+<div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;color:#f3f3f7;">No tracks yet</div>
+</td>
+<td valign="top" width="33.333%" style="padding:0;">
+<div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;color:#f3f3f7;">No tracks yet</div>
+</td>
+<td valign="top" width="33.333%" style="padding:0;">
+<div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;color:#f3f3f7;">No tracks yet</div>
+</td>
+</tr>
+</table>
 
-_Last updated: pending first workflow run_
+<div style="font-size:12px;color:#8f8f9f;margin-top:8px;">Now playing: none • Last updated: pending first workflow run</div>
 
 <!-- MUSIC:END -->
 
