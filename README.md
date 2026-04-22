@@ -11,7 +11,7 @@ Use your deployment URL or local URL:
 
 ## Authentication Model
 
-There are two auth paths:
+There are three auth paths:
 
 1. Session auth for private account APIs.
 - `/api/recent`
@@ -21,6 +21,10 @@ There are two auth paths:
 2. Webhook token auth for ingestion API.
 - `/api/webhook`
 - `/api/webhook/<token>`
+
+3. Webhook token auth for public read API (no email/password).
+- `GET /api/public/<token>`
+- Returns now playing, recent items, and stats for that token owner.
 
 ## 1) Login and Fetch Private API Data
 
@@ -94,6 +98,64 @@ curl -X POST \
   "http://127.0.0.1:8000/api/webhook"
 ```
 
+## 3) Fetch Data Directly Using Webhook URL (No Login Required)
+
+You can fetch data directly from the webhook URL using `GET`, without session login.
+
+### Direct URL pattern
+
+```text
+GET /api/public/<YOUR_WEBHOOK_TOKEN>
+```
+
+### Your hosted example
+
+```text
+http://jinksqspider-live-listening-diary.hf.space/api/public/<YOUR_WEBHOOK_TOKEN>
+```
+
+### Fetch only played songs (scrobbles)
+
+```bash
+curl "http://jinksqspider-live-listening-diary.hf.space/api/public/<YOUR_WEBHOOK_TOKEN>?event=scrobble&limit=3"
+```
+
+### Fetch all event types
+
+```bash
+curl "http://jinksqspider-live-listening-diary.hf.space/api/public/<YOUR_WEBHOOK_TOKEN>?event=all&limit=3"
+```
+
+### Public read response shape
+
+```json
+{
+  "ok": true,
+  "user": {
+    "display_name": "Your Name"
+  },
+  "now_playing": {
+    "artist": "...",
+    "track": "..."
+  },
+  "recent": [
+    {
+      "event_type": "scrobble",
+      "artist": "...",
+      "track": "..."
+    }
+  ],
+  "stats": {
+    "total_scrobbles": 0,
+    "last_updated": "...",
+    "top_artist": "..."
+  },
+  "count": 0,
+  "limit": 3,
+  "event": "scrobble"
+}
+```
+
 ## API Response Shapes
 
 ### GET /api/now-playing
@@ -137,8 +199,8 @@ GitHub README is static, so fetch API data on a schedule, write output files, th
 
 Current repo setup uses `.github/workflows/update.yml` to:
 
-1. Login using `APP_EMAIL` and `APP_PASSWORD` from GitHub Secrets.
-2. Fetch `/api/now-playing` and `/api/recent?event=scrobble&limit=20`.
+1. Fetch from `GET /api/public/<token>?event=scrobble&limit=3`.
+2. Use `now_playing` and `recent` from response.
 3. Build `MUSIC.md`.
 4. Replace README block between `MUSIC:START` and `MUSIC:END`.
 5. Commit updated files.
@@ -146,8 +208,7 @@ Current repo setup uses `.github/workflows/update.yml` to:
 ### Required GitHub Secrets
 
 - `APP_BASE_URL`
-- `APP_EMAIL`
-- `APP_PASSWORD`
+- `WEBHOOK_TOKEN`
 
 ## Live Music Block
 
@@ -155,11 +216,11 @@ The section below is auto-updated by GitHub Actions.
 
 <!-- MUSIC:START -->
 
-## Listening Now
+## Now Playing
 - No active track
 
-## Recently Played
-- No recent scrobbles
+## Recent 3 Tracks
+1. No recent scrobbles
 
 _Last updated: pending first workflow run_
 
@@ -168,7 +229,7 @@ _Last updated: pending first workflow run_
 ## Security Notes
 
 - Never commit your webhook token, account password, or session cookies.
-- Store credentials only in environment variables or GitHub Secrets.
+- Store token/credentials only in environment variables or GitHub Secrets.
 - If token/password leaks, rotate immediately.
 
 ## Troubleshooting

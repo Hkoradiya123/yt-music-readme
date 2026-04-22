@@ -19,21 +19,16 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Login and fetch API data
+      - name: Fetch public webhook data
         env:
           APP_BASE_URL: ${{ secrets.APP_BASE_URL }}
-          APP_EMAIL: ${{ secrets.APP_EMAIL }}
-          APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
+          WEBHOOK_TOKEN: ${{ secrets.WEBHOOK_TOKEN }}
         run: |
           set -e
 
-          curl -sS -f -c cookies.txt -X POST \
-            -H "Content-Type: application/x-www-form-urlencoded" \
-            -d "email=${APP_EMAIL}&password=${APP_PASSWORD}" \
-            "${APP_BASE_URL}/login" > /dev/null
-
-          curl -sS -f -b cookies.txt "${APP_BASE_URL}/api/now-playing" > now-playing.json
-          curl -sS -f -b cookies.txt "${APP_BASE_URL}/api/recent?event=scrobble&limit=200" > recent.json
+          curl -sS -f \
+            "${APP_BASE_URL}/api/public/${WEBHOOK_TOKEN}?event=scrobble&limit=3" \
+            > listening.json
 
       - name: Build music markdown and update README block
         run: |
@@ -41,28 +36,36 @@ jobs:
           import json
           from datetime import datetime, timezone
 
-          def read_json(path):
-              with open(path, "r", encoding="utf-8") as f:
-                  return json.load(f)
+          with open("listening.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
 
-          now = read_json("now-playing.json")
-          recent = read_json("recent.json")
-
-          item = (now or {}).get("item") or {}
-          items = (recent or {}).get("items") or []
+          item = (data or {}).get("now_playing") or {}
+          items = (data or {}).get("recent") or []
 
           lines = []
-          lines.append("## Listening Now")
+          lines.append("## Now Playing")
           if item:
-              lines.append(f"- {item.get('artist', 'Unknown')} - {item.get('track', 'Untitled')}")
+              artist = item.get('artist', 'Unknown')
+              track = item.get('track', 'Untitled')
+              album = item.get('album', '')
+              current = f"- **{track}** by {artist}"
+              if album:
+                current += f" • _{album}_"
+              lines.append(current)
           else:
               lines.append("- No active track")
 
           lines.append("")
-          lines.append("## Recently Played")
-            if items:
-              for row in items:
-                  lines.append(f"- {row.get('artist', 'Unknown')} - {row.get('track', 'Untitled')}")
+          lines.append("## Recent 3 Tracks")
+          if items:
+              for index, row in enumerate(items[:3], start=1):
+                  artist = row.get('artist', 'Unknown')
+                  track = row.get('track', 'Untitled')
+                  album = row.get('album', '')
+                  line = f"{index}. **{track}** by {artist}"
+                  if album:
+                      line += f" • _{album}_"
+                  lines.append(line)
           else:
               lines.append("- No recent scrobbles")
 
@@ -95,6 +98,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
 
-          git add README.md MUSIC.md
+          git add README.md MUSIC.md listening.json
           git diff --cached --quiet || git commit -m "chore: update listening data"
           git push
