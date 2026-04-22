@@ -18,6 +18,32 @@
 
 <td align="center">
 
+<img src="https://lh3.googleusercontent.com/o0VCkTQynMGGvlqcJiCpgRZx9RPR9AtdAA-U49rHh4gaTIO4hDo4N-t3dT_xvRVsKIlE_cHHs129GC4=w544-h544-l90-rj" width="120" height="120"/>
+
+<br/>
+
+**🎵 Vaari Jaavan (From "Dhurandhar The Revenge")**
+Shashwat Sachdev, Jyoti Nooran and Jasmine Sandlas
+
+<sub>🟣 13m ago</sub>
+
+</td>
+
+<td align="center">
+
+<img src="https://lh3.googleusercontent.com/xjBxRIFJGq06bB6P2uyEDFhqZrw4kYJNHwZgh6nLuW3IN9HYinK9rDBMVYuxzoFw7ZD52gnFoyqqs0s=w544-h544-l90-rj" width="120" height="120"/>
+
+<br/>
+
+**🎵 Bairan Love Story (FEMALE VERSION)**
+DR.Gojo
+
+<sub>🟣 16m ago</sub>
+
+</td>
+
+<td align="center">
+
 <img src="https://lh3.googleusercontent.com/3LGTh4yDbPCEwUf72y6qrV6EMUpHw3V68C-NvFMysB5VSuWvVGYp0P4N_weR1C8eGChbPo1TDc5s14s=w544-h544-l90-rj" width="120" height="120"/>
 
 <br/>
@@ -25,33 +51,7 @@
 **🎵 Ranjha**
 Noor Chahal
 
-<sub>🟣 6h ago</sub>
-
-</td>
-
-<td align="center">
-
-<img src="https://lh3.googleusercontent.com/Z9qNEuP76XKtt8Sd1_2sZLU2k_XqrtwM6jPW8UtXEcNwt4u0KnEsBiHikYcu1VQduuHWyEIWz6J92rdY7Q=w544-h544-l90-rj" width="120" height="120"/>
-
-<br/>
-
-**🎵 Bairan Female**
-Aman Jakhar
-
-<sub>🟣 7h ago</sub>
-
-</td>
-
-<td align="center">
-
-<img src="https://i.ytimg.com/vi/bStQwuVibyI/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLBxirtCqQMEDSptzbhoImTzohpSMg" width="120" height="120"/>
-
-<br/>
-
-**🎵 Shinchan**
-Zaroor X Ishq Di Baajiyaan [ Full Mashup ]
-
-<sub>🟣 7h ago</sub>
+<sub>🟣 8h ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Zaroor X Ishq Di Baajiyaan [ Full Mashup ]
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-22 19:03 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-22 20:28 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
