@@ -1,17 +1,76 @@
 <!-- MUSIC:START -->
 
-<h3 align="left" style="margin:0 0 12px 2px;color:#e8ecff;font-size:24px;line-height:1.2;letter-spacing:0.2px;">🎵 Recently Played 🎵</h3>
-<table width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;table-layout:fixed;">
+# 🎧 Live Listening Diary
+
+
+---
+
+<p align="center">
+  <sub>Real-time music tracking dashboard • Built with FastAPI + PostgreSQL</sub>
+</p>
+
+---
+
+## 🎵 Recently Played
+
+<table>
 <tr>
-<td valign="top" width="33.333%" style="padding:6px;"><div style="background:linear-gradient(180deg,#111a2b 0%,#0c1322 100%);border:1px solid #313a56;border-radius:16px;padding:11px;box-shadow:0 8px 22px rgba(2,6,23,0.38);text-align:center;"><img src="https://lh3.googleusercontent.com/3LGTh4yDbPCEwUf72y6qrV6EMUpHw3V68C-NvFMysB5VSuWvVGYp0P4N_weR1C8eGChbPo1TDc5s14s=w544-h544-l90-rj" alt="Ranjha" width="108" height="108" style="display:block;width:108px;height:108px;margin:0 auto;border-radius:11px;object-fit:cover;border:1px solid #36415f;" /><div style="font-size:15px;line-height:1.28;font-weight:700;color:#f8fbff;margin-top:10px;word-break:break-word;letter-spacing:0.1px;">Ranjha</div><div style="font-size:13px;line-height:1.35;color:#c5ccda;margin-top:4px;word-break:break-word;">Noor Chahal</div><div style="font-size:12px;color:#8b5cf6;font-weight:700;margin-top:9px;letter-spacing:0.2px;">1h ago</div></div></td>
-<td valign="top" width="33.333%" style="padding:6px;"><div style="background:linear-gradient(180deg,#111a2b 0%,#0c1322 100%);border:1px solid #313a56;border-radius:16px;padding:11px;box-shadow:0 8px 22px rgba(2,6,23,0.38);text-align:center;"><img src="https://lh3.googleusercontent.com/Z9qNEuP76XKtt8Sd1_2sZLU2k_XqrtwM6jPW8UtXEcNwt4u0KnEsBiHikYcu1VQduuHWyEIWz6J92rdY7Q=w544-h544-l90-rj" alt="Bairan Female" width="108" height="108" style="display:block;width:108px;height:108px;margin:0 auto;border-radius:11px;object-fit:cover;border:1px solid #36415f;" /><div style="font-size:15px;line-height:1.28;font-weight:700;color:#f8fbff;margin-top:10px;word-break:break-word;letter-spacing:0.1px;">Bairan Female</div><div style="font-size:13px;line-height:1.35;color:#c5ccda;margin-top:4px;word-break:break-word;">Aman Jakhar</div><div style="font-size:12px;color:#8b5cf6;font-weight:700;margin-top:9px;letter-spacing:0.2px;">1h ago</div></div></td>
-<td valign="top" width="33.333%" style="padding:6px;"><div style="background:linear-gradient(180deg,#111a2b 0%,#0c1322 100%);border:1px solid #313a56;border-radius:16px;padding:11px;box-shadow:0 8px 22px rgba(2,6,23,0.38);text-align:center;"><img src="https://i.ytimg.com/vi/bStQwuVibyI/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&amp;rs=AOn4CLBxirtCqQMEDSptzbhoImTzohpSMg" alt="Shinchan" width="108" height="108" style="display:block;width:108px;height:108px;margin:0 auto;border-radius:11px;object-fit:cover;border:1px solid #36415f;" /><div style="font-size:15px;line-height:1.28;font-weight:700;color:#f8fbff;margin-top:10px;word-break:break-word;letter-spacing:0.1px;">Shinchan</div><div style="font-size:13px;line-height:1.35;color:#c5ccda;margin-top:4px;word-break:break-word;">Zaroor X Ishq Di Baajiyaan [ Full Mashup ]</div><div style="font-size:12px;color:#8b5cf6;font-weight:700;margin-top:9px;letter-spacing:0.2px;">1h ago</div></div></td>
+
+<td align="center">
+
+<img src="https://lh3.googleusercontent.com/3LGTh4yDbPCEwUf72y6qrV6EMUpHw3V68C-NvFMysB5VSuWvVGYp0P4N_weR1C8eGChbPo1TDc5s14s=w544-h544-l90-rj" width="120" height="120"/>
+
+<br/>
+
+**🎵 Ranjha**
+Noor Chahal
+
+<sub>🟣 1h ago</sub>
+
+</td>
+
+<td align="center">
+
+<img src="https://lh3.googleusercontent.com/Z9qNEuP76XKtt8Sd1_2sZLU2k_XqrtwM6jPW8UtXEcNwt4u0KnEsBiHikYcu1VQduuHWyEIWz6J92rdY7Q=w544-h544-l90-rj" width="120" height="120"/>
+
+<br/>
+
+**🎵 Bairan Female**
+Aman Jakhar
+
+<sub>🟣 1h ago</sub>
+
+</td>
+
+<td align="center">
+
+<img src="https://i.ytimg.com/vi/bStQwuVibyI/sddefault.jpg" width="120" height="120"/>
+
+<br/>
+
+**🎵 Shinchan** <sub>Mashup Track</sub>
+
+<sub>🟣 1h ago</sub>
+
+</td>
+
 </tr>
 </table>
 
-<div style="margin-top:8px;background:#0d1526;border:1px solid #2c3551;border-radius:14px;padding:10px 12px;">
-<div style="font-size:13px;color:#c8d0e2;line-height:1.45;">Now playing: <strong>Ranjha</strong> by Noor Chahal • 1h ago</div>
-<div style="font-size:12px;color:#8b95ad;margin-top:4px;line-height:1.4;">Last updated: 2026-04-22 13:29 UTC</div>
-</div>
+
+
+## 📊 Stats
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Tracks-128-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Time-9h42m-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Artists-23-111827?style=for-the-badge"/>
+</p>
+
+---
+
+<p align="center">
+  <sub>⏱ Last updated: 2026-04-22 13:29 UTC</sub>
+</p>
 
 <!-- MUSIC:END -->

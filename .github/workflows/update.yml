@@ -35,7 +35,6 @@ jobs:
           python - << 'PY'
           import json
           from datetime import datetime, timezone
-          from html import escape
 
           with open("listening.json", "r", encoding="utf-8") as f:
               data = json.load(f)
@@ -50,66 +49,68 @@ jobs:
           def artwork_url(row):
               return row.get("artwork_url") or row.get("image") or "https://via.placeholder.com/300x300?text=No+Cover"
 
-          def clean_album(value):
-              text = str(value or "").strip()
-              if text.lower() in {"", "false", "none", "null"}:
-                  return ""
-              return text
-
           recent_rows = (items or [])[:3]
 
-          if item:
-              current_artist = escape(str(item.get("artist", "Unknown")))
-              current_track = escape(str(item.get("track", "Untitled")))
-              current_time = escape(str(time_label(item)))
-          else:
-              current_artist = "No active track"
-              current_track = ""
-              current_time = ""
-
-          card_html = []
-          card_html.append('<h3 align="left" style="margin:0 0 12px 2px;color:#e8ecff;font-size:24px;line-height:1.2;letter-spacing:0.2px;">🎵 Recently Played 🎵</h3>')
-          card_html.append('<table width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;table-layout:fixed;">')
-          card_html.append('<tr>')
+          lines = []
+          lines.append("# 🎧 Live Listening Diary")
+          lines.append("")
+          lines.append("")
+          lines.append("---")
+          lines.append("")
+          lines.append('<p align="center">')
+          lines.append('  <sub>Real-time music tracking dashboard • Built with FastAPI + PostgreSQL</sub>')
+          lines.append('</p>')
+          lines.append("")
+          lines.append("---")
+          lines.append("")
+          lines.append("## 🎵 Recently Played")
+          lines.append("")
+          lines.append("<table>")
+          lines.append("<tr>")
 
           for i in range(3):
               row = recent_rows[i] if i < len(recent_rows) else {}
-              artist = escape(str(row.get("artist", "No artist")))
-              track = escape(str(row.get("track", "No track")))
-              album = escape(clean_album(row.get("album", "")))
-              if album and album.lower() == track.lower():
-                album = ""
-              time_text = escape(str(time_label(row))) or "-"
-              image = escape(str(artwork_url(row)))
-              album_html = f'<div style="font-size:12px;color:#9aa3b2;margin-top:5px;line-height:1.35;">{album}</div>' if album else ""
+              artist = str(row.get("artist", "No artist"))
+              track = str(row.get("track", "No track"))
+              time_text = str(time_label(row)) or "-"
+              image = str(artwork_url(row))
 
-              card_html.append(
-                  '<td valign="top" width="33.333%" style="padding:6px;">'
-                  '<div style="background:linear-gradient(180deg,#111a2b 0%,#0c1322 100%);border:1px solid #313a56;border-radius:16px;padding:11px;box-shadow:0 8px 22px rgba(2,6,23,0.38);text-align:center;">'
-                  f'<img src="{image}" alt="{track}" width="108" height="108" style="display:block;width:108px;height:108px;margin:0 auto;border-radius:11px;object-fit:cover;border:1px solid #36415f;" />'
-                  f'<div style="font-size:15px;line-height:1.28;font-weight:700;color:#f8fbff;margin-top:10px;word-break:break-word;letter-spacing:0.1px;">{track}</div>'
-                  f'<div style="font-size:13px;line-height:1.35;color:#c5ccda;margin-top:4px;word-break:break-word;">{artist}</div>'
-                  f'{album_html}'
-                  f'<div style="font-size:12px;color:#8b5cf6;font-weight:700;margin-top:9px;letter-spacing:0.2px;">{time_text}</div>'
-                  '</div>'
-                  '</td>'
-              )
+              lines.append("")
+              lines.append("<td align=\"center\">")
+              lines.append("")
+              lines.append(f'<img src="{image}" width="120" height="120"/>')
+              lines.append("")
+              lines.append("<br/>")
+              lines.append("")
+              lines.append(f"**🎵 {track}**")
+              lines.append(artist)
+              lines.append("")
+              lines.append(f"<sub>🟣 {time_text}</sub>")
+              lines.append("")
+              lines.append("</td>")
 
-          card_html.append('</tr>')
-          card_html.append('</table>')
-          card_html.append('')
-
-          now_line = f'Now playing: <strong>{current_track}</strong> by {current_artist}' if current_track else 'Now playing: No active track'
-          if current_time:
-              now_line += f' • {current_time}'
-
+          lines.append("")
+          lines.append("</tr>")
+          lines.append("</table>")
+          lines.append("")
+          lines.append("")
+          lines.append("")
+          lines.append("## 📊 Stats")
+          lines.append("")
+          lines.append('<p align="center">')
+          lines.append('  <img src="https://img.shields.io/badge/Tracks-128-111827?style=for-the-badge"/>')
+          lines.append('  <img src="https://img.shields.io/badge/Time-9h42m-111827?style=for-the-badge"/>')
+          lines.append('  <img src="https://img.shields.io/badge/Artists-23-111827?style=for-the-badge"/>')
+          lines.append('</p>')
+          lines.append("")
+          lines.append("---")
+          lines.append("")
           last_updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-          card_html.append('<div style="margin-top:8px;background:#0d1526;border:1px solid #2c3551;border-radius:14px;padding:10px 12px;">')
-          card_html.append(f'<div style="font-size:13px;color:#c8d0e2;line-height:1.45;">{now_line}</div>')
-          card_html.append(f'<div style="font-size:12px;color:#8b95ad;margin-top:4px;line-height:1.4;">Last updated: {last_updated}</div>')
-          card_html.append('</div>')
+          lines.append('<p align="center">')
+          lines.append(f'  <sub>⏱ Last updated: {last_updated}</sub>')
+          lines.append('</p>')
 
-          music_block = "\n".join(card_html) + "\n"
+          music_block = "\n".join(lines) + "\n"
           with open("MUSIC.md", "w", encoding="utf-8") as f:
               f.write(music_block)
 
