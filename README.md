@@ -199,7 +199,7 @@ GitHub README is static, so fetch API data on a schedule, write output files, th
 
 Current repo setup uses `.github/workflows/update.yml` to:
 
-1. Fetch from `GET /api/public/<token>?event=scrobble&limit=3`.
+1. Fetch from `GET /api/public/<token>?event=scrobble&limit=3` using the hardcoded base URL `https://live-listening-diary.vercel.app`.
 2. Use `now_playing` and `recent` from response.
 3. Build `MUSIC.md`.
 4. Replace README block between `MUSIC:START` and `MUSIC:END`.
@@ -207,7 +207,6 @@ Current repo setup uses `.github/workflows/update.yml` to:
 
 ### Required GitHub Secrets
 
-- `APP_BASE_URL`
 - `WEBHOOK_TOKEN`
 
 ## Live Music Block
