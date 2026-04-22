@@ -2,7 +2,7 @@ name: Update Music
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -15,39 +15,86 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: "18"
-
-      - name: Install dependencies
-        run: npm install --no-package-lock
-
-      - name: Run script
-        run: node index.js
+      - name: Login and fetch API data
         env:
-          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
-
-      - name: Commit changes
+          APP_BASE_URL: ${{ secrets.APP_BASE_URL }}
+          APP_EMAIL: ${{ secrets.APP_EMAIL }}
+          APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          set -e
 
-          git pull --rebase --autostash origin main
+          curl -sS -f -c cookies.txt -X POST \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -d "email=${APP_EMAIL}&password=${APP_PASSWORD}" \
+            "${APP_BASE_URL}/login" > /dev/null
 
-          git add README.md
+          curl -sS -f -b cookies.txt "${APP_BASE_URL}/api/now-playing" > now-playing.json
+          curl -sS -f -b cookies.txt "${APP_BASE_URL}/api/recent?event=scrobble&limit=200" > recent.json
 
-          if git diff --cached --quiet; then
-            echo "No README changes to commit."
-            exit 0
-          fi
+      - name: Build music markdown and update README block
+        run: |
+          python - << 'PY'
+          import json
+          from datetime import datetime, timezone
 
-          git commit -m "Update README"
-          git push origin HEAD:main
+          def read_json(path):
+              with open(path, "r", encoding="utf-8") as f:
+                  return json.load(f)
+
+          now = read_json("now-playing.json")
+          recent = read_json("recent.json")
+
+          item = (now or {}).get("item") or {}
+          items = (recent or {}).get("items") or []
+
+          lines = []
+          lines.append("## Listening Now")
+          if item:
+              lines.append(f"- {item.get('artist', 'Unknown')} - {item.get('track', 'Untitled')}")
+          else:
+              lines.append("- No active track")
+
+          lines.append("")
+          lines.append("## Recently Played")
+            if items:
+              for row in items:
+                  lines.append(f"- {row.get('artist', 'Unknown')} - {row.get('track', 'Untitled')}")
+          else:
+              lines.append("- No recent scrobbles")
+
+          lines.append("")
+          lines.append(f"_Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}_")
+
+          music_block = "\n".join(lines) + "\n"
+          with open("MUSIC.md", "w", encoding="utf-8") as f:
+              f.write(music_block)
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          start = "<!-- MUSIC:START -->"
+          end = "<!-- MUSIC:END -->"
+
+          if start not in readme or end not in readme:
+              raise SystemExit("README markers not found: MUSIC:START / MUSIC:END")
+
+          before, rest = readme.split(start, 1)
+          _, after = rest.split(end, 1)
+          updated = before + start + "\n\n" + music_block + "\n" + end + after
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(updated)
+          PY
+
+      - name: Commit update
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add README.md MUSIC.md
+          git diff --cached --quiet || git commit -m "chore: update listening data"
+          git push
