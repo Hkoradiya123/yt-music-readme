@@ -1,5 +1,3 @@
-<!-- MUSIC:START -->
-
 <h3 align="left" style="margin:0 0 12px 2px;color:#e8ecff;font-size:24px;line-height:1.2;letter-spacing:0.2px;">🎵 Recently Played 🎵</h3>
 <table width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;table-layout:fixed;">
 <tr>
@@ -13,5 +11,3 @@
 <div style="font-size:13px;color:#c8d0e2;line-height:1.45;">Now playing: <strong>Ranjha</strong> by Noor Chahal • 1h ago</div>
 <div style="font-size:12px;color:#8b95ad;margin-top:4px;line-height:1.4;">Last updated: 2026-04-22 13:29 UTC</div>
 </div>
-
-<!-- MUSIC:END -->
