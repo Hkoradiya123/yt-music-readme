@@ -96,18 +96,18 @@ jobs:
               )
 
           card_html.append('</tr>')
-            card_html.append('</table>')
-            card_html.append('')
+          card_html.append('</table>')
+          card_html.append('')
 
           now_line = f'Now playing: <strong>{current_track}</strong> by {current_artist}' if current_track else 'Now playing: No active track'
           if current_time:
               now_line += f' • {current_time}'
 
           last_updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-            card_html.append('<div style="margin-top:8px;background:#0d1526;border:1px solid #2c3551;border-radius:14px;padding:10px 12px;">')
-            card_html.append(f'<div style="font-size:13px;color:#c8d0e2;line-height:1.45;">{now_line}</div>')
-            card_html.append(f'<div style="font-size:12px;color:#8b95ad;margin-top:4px;line-height:1.4;">Last updated: {last_updated}</div>')
-            card_html.append('</div>')
+          card_html.append('<div style="margin-top:8px;background:#0d1526;border:1px solid #2c3551;border-radius:14px;padding:10px 12px;">')
+          card_html.append(f'<div style="font-size:13px;color:#c8d0e2;line-height:1.45;">{now_line}</div>')
+          card_html.append(f'<div style="font-size:12px;color:#8b95ad;margin-top:4px;line-height:1.4;">Last updated: {last_updated}</div>')
+          card_html.append('</div>')
 
           music_block = "\n".join(card_html) + "\n"
           with open("MUSIC.md", "w", encoding="utf-8") as f:
