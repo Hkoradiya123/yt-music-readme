@@ -216,22 +216,18 @@ The section below is auto-updated by GitHub Actions.
 <!-- MUSIC:START -->
 
 <h3 align="left">Recently Played</h3>
-
 <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:separate;border-spacing:14px 0;">
 <tr>
-<td valign="top" width="33.333%" style="padding:0;">
-<div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;color:#f3f3f7;">No tracks yet</div>
-</td>
-<td valign="top" width="33.333%" style="padding:0;">
-<div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;color:#f3f3f7;">No tracks yet</div>
-</td>
-<td valign="top" width="33.333%" style="padding:0;">
-<div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;color:#f3f3f7;">No tracks yet</div>
-</td>
+<td valign="top" width="33.333%" style="padding:0;"><div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;"><table width="100%" cellspacing="0" cellpadding="0"><tr><td width="118" style="padding-right:14px;vertical-align:middle;"><img src="https://lh3.googleusercontent.com/3LGTh4yDbPCEwUf72y6qrV6EMUpHw3V68C-NvFMysB5VSuWvVGYp0P4N_weR1C8eGChbPo1TDc5s14s=w544-h544-l90-rj" alt="Ranjha" width="118" height="118" style="display:block;border-radius:12px;object-fit:cover;" /></td><td style="vertical-align:middle;"><div style="font-size:18px;line-height:1.2;font-weight:700;color:#f3f3f7;margin-bottom:6px;">Ranjha</div><div style="font-size:14px;line-height:1.35;color:#b6b6c7;margin-bottom:10px;">Noor Chahal</div><div style="font-size:13px;color:#9d6bff;font-weight:600;">21m ago</div><div style="font-size:12px;color:#8f8f9f;margin-top:6px;">Ranjha</div></td></tr></table></div></td>
+<td valign="top" width="33.333%" style="padding:0;"><div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;"><table width="100%" cellspacing="0" cellpadding="0"><tr><td width="118" style="padding-right:14px;vertical-align:middle;"><img src="https://lh3.googleusercontent.com/Z9qNEuP76XKtt8Sd1_2sZLU2k_XqrtwM6jPW8UtXEcNwt4u0KnEsBiHikYcu1VQduuHWyEIWz6J92rdY7Q=w544-h544-l90-rj" alt="Bairan Female" width="118" height="118" style="display:block;border-radius:12px;object-fit:cover;" /></td><td style="vertical-align:middle;"><div style="font-size:18px;line-height:1.2;font-weight:700;color:#f3f3f7;margin-bottom:6px;">Bairan Female</div><div style="font-size:14px;line-height:1.35;color:#b6b6c7;margin-bottom:10px;">Aman Jakhar</div><div style="font-size:13px;color:#9d6bff;font-weight:600;">35m ago</div><div style="font-size:12px;color:#8f8f9f;margin-top:6px;">Bairan Female</div></td></tr></table></div></td>
+<td valign="top" width="33.333%" style="padding:0;"><div style="background:#17171f;border:1px solid #2f2a52;border-radius:16px;padding:14px;min-height:136px;"><table width="100%" cellspacing="0" cellpadding="0"><tr><td width="118" style="padding-right:14px;vertical-align:middle;"><img src="https://i.ytimg.com/vi/bStQwuVibyI/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&amp;rs=AOn4CLBxirtCqQMEDSptzbhoImTzohpSMg" alt="Shinchan" width="118" height="118" style="display:block;border-radius:12px;object-fit:cover;" /></td><td style="vertical-align:middle;"><div style="font-size:18px;line-height:1.2;font-weight:700;color:#f3f3f7;margin-bottom:6px;">Shinchan</div><div style="font-size:14px;line-height:1.35;color:#b6b6c7;margin-bottom:10px;">Zaroor X Ishq Di Baajiyaan [ Full Mashup ]</div><div style="font-size:13px;color:#9d6bff;font-weight:600;">39m ago</div><div style="font-size:12px;color:#8f8f9f;margin-top:6px;">False</div></td></tr></table></div></td>
 </tr>
 </table>
 
-<div style="font-size:12px;color:#8f8f9f;margin-top:8px;">Now playing: none • Last updated: pending first workflow run</div>
+<div style="font-size:12px;color:#8f8f9f;margin-top:8px;">
+Now playing: <strong>Ranjha</strong> by Noor Chahal • Ranjha • 22m ago
+</div>
+<div style="font-size:12px;color:#8f8f9f;margin-top:6px;">Last updated: 2026-04-22 12:26 UTC</div>
 
 <!-- MUSIC:END -->
 
