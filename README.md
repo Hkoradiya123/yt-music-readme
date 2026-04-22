@@ -25,7 +25,7 @@
 **🎵 Ranjha**
 Noor Chahal
 
-<sub>🟣 1h ago</sub>
+<sub>🟣 2h ago</sub>
 
 </td>
 
@@ -38,31 +38,30 @@ Noor Chahal
 **🎵 Bairan Female**
 Aman Jakhar
 
-<sub>🟣 1h ago</sub>
+<sub>🟣 3h ago</sub>
 
 </td>
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/bStQwuVibyI/sddefault.jpg" width="120" height="120"/>
+<img src="https://i.ytimg.com/vi/bStQwuVibyI/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLBxirtCqQMEDSptzbhoImTzohpSMg" width="120" height="120"/>
 
 <br/>
 
-**🎵 Shinchan** <sub>Mashup Track</sub>
+**🎵 Shinchan**
+Zaroor X Ishq Di Baajiyaan [ Full Mashup ]
 
-<sub>🟣 1h ago</sub>
+<sub>🟣 3h ago</sub>
 
 </td>
 
 </tr>
 </table>
 
-
-
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-22 13:29 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-22 14:56 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
