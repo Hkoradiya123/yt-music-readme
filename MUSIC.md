@@ -16,40 +16,40 @@
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/o0VCkTQynMGGvlqcJiCpgRZx9RPR9AtdAA-U49rHh4gaTIO4hDo4N-t3dT_xvRVsKIlE_cHHs129GC4=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://lh3.googleusercontent.com/Tk-XJ1X8W97BMw9nEV-zztv-U2zdUwG7sq5Wy0nisy1uqH6dT4IBHrBtp9KAKLOLWfJ37E38E2Sp9f1Y=w544-h544-l90-rj" width="120" height="120"/>
 
 <br/>
 
-**🎵 Vaari Jaavan (From "Dhurandhar The Revenge")**
-Shashwat Sachdev, Jyoti Nooran and Jasmine Sandlas
+**🎵 Duvidha**
+Lucke
 
-<sub>🟣 9h ago</sub>
+<sub>🟣 22m ago</sub>
 
 </td>
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/xjBxRIFJGq06bB6P2uyEDFhqZrw4kYJNHwZgh6nLuW3IN9HYinK9rDBMVYuxzoFw7ZD52gnFoyqqs0s=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://lh3.googleusercontent.com/-KT2_fs0rnwEHXuf6aiZXblm6TUY9QdJabsmc_uRggztEPXPlGQxErWbxBH5t9E53XUXSuC1umEMG8oz=w544-h544-l90-rj" width="120" height="120"/>
 
 <br/>
 
-**🎵 Bairan Love Story (FEMALE VERSION)**
-DR.Gojo
+**🎵 Mahabali Maharudra (Rap Version)**
+Siddharth Sharma & Vickky Agarwal
 
-<sub>🟣 9h ago</sub>
+<sub>🟣 31m ago</sub>
 
 </td>
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/3LGTh4yDbPCEwUf72y6qrV6EMUpHw3V68C-NvFMysB5VSuWvVGYp0P4N_weR1C8eGChbPo1TDc5s14s=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://lh3.googleusercontent.com/P4VPuiJ93NMXiqYJeCgD6VOrLPHBg8A4YwQM15FFY-uk8TxLnNPYvUbcX3l2-2cd5RWIB6Ivsyo8027iTg=w544-h544-l90-rj" width="120" height="120"/>
 
 <br/>
 
-**🎵 Ranjha**
-Noor Chahal
+**🎵 Kaal Bhairav**
+SJ & Dheeraj soni
 
-<sub>🟣 17h ago</sub>
+<sub>🟣 43m ago</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ Noor Chahal
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-23 06:01 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-23 08:16 UTC</sub>
 </p>
