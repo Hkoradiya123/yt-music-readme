@@ -25,7 +25,7 @@
 **🎵 Vaari Jaavan (From "Dhurandhar The Revenge")**
 Shashwat Sachdev, Jyoti Nooran and Jasmine Sandlas
 
-<sub>🟣 3h ago</sub>
+<sub>🟣 7h ago</sub>
 
 </td>
 
@@ -38,7 +38,7 @@ Shashwat Sachdev, Jyoti Nooran and Jasmine Sandlas
 **🎵 Bairan Love Story (FEMALE VERSION)**
 DR.Gojo
 
-<sub>🟣 3h ago</sub>
+<sub>🟣 7h ago</sub>
 
 </td>
 
@@ -51,7 +51,7 @@ DR.Gojo
 **🎵 Ranjha**
 Noor Chahal
 
-<sub>🟣 12h ago</sub>
+<sub>🟣 15h ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Noor Chahal
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-23 00:07 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-23 03:51 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
