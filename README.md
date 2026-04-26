@@ -25,7 +25,7 @@
 **🎵 Duvidha**
 Lucke
 
-<sub>🟣 2d ago</sub>
+<sub>🟣 3d ago</sub>
 
 </td>
 
@@ -38,7 +38,7 @@ Lucke
 **🎵 Mahabali Maharudra (Rap Version)**
 Siddharth Sharma & Vickky Agarwal
 
-<sub>🟣 2d ago</sub>
+<sub>🟣 3d ago</sub>
 
 </td>
 
@@ -51,7 +51,7 @@ Siddharth Sharma & Vickky Agarwal
 **🎵 Kaal Bhairav**
 SJ & Dheeraj soni
 
-<sub>🟣 2d ago</sub>
+<sub>🟣 3d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ SJ & Dheeraj soni
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-26 06:22 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-26 07:58 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
