@@ -31,27 +31,27 @@ Lucke
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/-KT2_fs0rnwEHXuf6aiZXblm6TUY9QdJabsmc_uRggztEPXPlGQxErWbxBH5t9E53XUXSuC1umEMG8oz=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 Mahabali Maharudra (Rap Version)**
-Siddharth Sharma & Vickky Agarwal
+**🎵 No track**
+No artist
 
-<sub>🟣 5d ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/P4VPuiJ93NMXiqYJeCgD6VOrLPHBg8A4YwQM15FFY-uk8TxLnNPYvUbcX3l2-2cd5RWIB6Ivsyo8027iTg=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 Kaal Bhairav**
-SJ & Dheeraj soni
+**🎵 No track**
+No artist
 
-<sub>🟣 5d ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ SJ & Dheeraj soni
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-28 10:29 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-28 12:11 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
