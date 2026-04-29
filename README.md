@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/GX9x62kFsVU/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLATHf5PFLdWkZDvhJ9dZ8TmYIhBew" width="120" height="120"/>
+<img src="https://i.ytimg.com/vi/0mQLTWvXbXM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLA-4Lt4SMh6vvbhNpH2oSqJDYGLUQ" width="120" height="120"/>
 
 <br/>
 
-**🎵 Gehra Hua**
-Arijit Singh, Armaan Khan, Shashwat Sachdev, & Irshad Kamil
+**🎵 JAB TAK**
+Most Romatic Songs😍 |  Non-Stop Love-Mix🎶💗 | Feeling of First Love 😍 | T-Series
 
-<sub>🟣 7m ago</sub>
+<sub>🟣 32s ago</sub>
 
 </td>
 
@@ -38,7 +38,7 @@ Arijit Singh, Armaan Khan, Shashwat Sachdev, & Irshad Kamil
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 22m ago</sub>
+<sub>🟣 1h ago</sub>
 
 </td>
 
@@ -51,7 +51,7 @@ AP Dhillon & Shreya Ghoshal
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 4h ago</sub>
+<sub>🟣 5h ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-29 10:22 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-29 11:58 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
