@@ -25,7 +25,7 @@
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 8h ago</sub>
+<sub>🟣 10h ago</sub>
 
 </td>
 
@@ -38,7 +38,7 @@ AP Dhillon & Shreya Ghoshal
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 12h ago</sub>
+<sub>🟣 13h ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-29 18:54 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-29 20:07 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
