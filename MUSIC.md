@@ -16,14 +16,14 @@
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/Tk-XJ1X8W97BMw9nEV-zztv-U2zdUwG7sq5Wy0nisy1uqH6dT4IBHrBtp9KAKLOLWfJ37E38E2Sp9f1Y=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://i.ytimg.com/vi/i52TYO13Nyg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAMvX36gdiYyaWv_FAg5boSvvfx9g" width="120" height="120"/>
 
 <br/>
 
-**🎵 Duvidha**
-Lucke
+**🎵 SHEESHA**
+Swara Verma & Mitta Ror
 
-<sub>🟣 5d ago</sub>
+<sub>🟣 1h ago</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-29 05:38 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-29 08:04 UTC</sub>
 </p>
