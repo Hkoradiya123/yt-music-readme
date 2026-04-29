@@ -18,19 +18,6 @@
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/0mQLTWvXbXM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLA-4Lt4SMh6vvbhNpH2oSqJDYGLUQ" width="120" height="120"/>
-
-<br/>
-
-**🎵 JAB TAK**
-Most Romatic Songs😍 |  Non-Stop Love-Mix🎶💗 | Feeling of First Love 😍 | T-Series
-
-<sub>🟣 32s ago</sub>
-
-</td>
-
-<td align="center">
-
 <img src="https://i.ytimg.com/vi/slM5s55Jz0k/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAtTIY1g8JI9e5-516erUgobKtgkA" width="120" height="120"/>
 
 <br/>
@@ -38,7 +25,7 @@ Most Romatic Songs😍 |  Non-Stop Love-Mix🎶💗 | Feeling of First Love 😍
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 1h ago</sub>
+<sub>🟣 3h ago</sub>
 
 </td>
 
@@ -51,7 +38,20 @@ AP Dhillon & Shreya Ghoshal
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 5h ago</sub>
+<sub>🟣 7h ago</sub>
+
+</td>
+
+<td align="center">
+
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
+
+<br/>
+
+**🎵 No track**
+No artist
+
+<sub>🟣 -</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-29 11:58 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-29 13:57 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
