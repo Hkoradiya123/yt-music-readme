@@ -18,6 +18,32 @@
 
 <td align="center">
 
+<img src="https://i.ytimg.com/vi/GX9x62kFsVU/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLATHf5PFLdWkZDvhJ9dZ8TmYIhBew" width="120" height="120"/>
+
+<br/>
+
+**🎵 Gehra Hua**
+Arijit Singh, Armaan Khan, Shashwat Sachdev, & Irshad Kamil
+
+<sub>🟣 7m ago</sub>
+
+</td>
+
+<td align="center">
+
+<img src="https://i.ytimg.com/vi/slM5s55Jz0k/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAtTIY1g8JI9e5-516erUgobKtgkA" width="120" height="120"/>
+
+<br/>
+
+**🎵 Thodi Si Daaru**
+AP Dhillon & Shreya Ghoshal
+
+<sub>🟣 22m ago</sub>
+
+</td>
+
+<td align="center">
+
 <img src="https://i.ytimg.com/vi/i52TYO13Nyg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAMvX36gdiYyaWv_FAg5boSvvfx9g" width="120" height="120"/>
 
 <br/>
@@ -25,33 +51,7 @@
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 1h ago</sub>
-
-</td>
-
-<td align="center">
-
-<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
-
-<br/>
-
-**🎵 No track**
-No artist
-
-<sub>🟣 -</sub>
-
-</td>
-
-<td align="center">
-
-<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
-
-<br/>
-
-**🎵 No track**
-No artist
-
-<sub>🟣 -</sub>
+<sub>🟣 4h ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-29 08:04 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-29 10:22 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
