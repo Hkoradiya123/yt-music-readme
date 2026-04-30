@@ -25,7 +25,7 @@
 **🎵 Zulfein**
 Mehul Mahesh and Dj AYnik
 
-<sub>🟣 2h ago</sub>
+<sub>🟣 4h ago</sub>
 
 </td>
 
@@ -38,7 +38,7 @@ Mehul Mahesh and Dj AYnik
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 22h ago</sub>
+<sub>🟣 1d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-30 08:07 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-30 10:23 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
