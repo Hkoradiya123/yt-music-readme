@@ -18,6 +18,19 @@
 
 <td align="center">
 
+<img src="https://lh3.googleusercontent.com/BIIF_2eBIIue6StUB-rYrEa48e9gj0p42l6xl1_EALf0g9D-pIG7bK3Wn15i1DdJ0jrKLwuLyKjxz2Oh=w544-h544-l90-rj" width="120" height="120"/>
+
+<br/>
+
+**🎵 Zulfein**
+Mehul Mahesh and Dj AYnik
+
+<sub>🟣 2h ago</sub>
+
+</td>
+
+<td align="center">
+
 <img src="https://i.ytimg.com/vi/slM5s55Jz0k/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAtTIY1g8JI9e5-516erUgobKtgkA" width="120" height="120"/>
 
 <br/>
@@ -25,7 +38,7 @@
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 19h ago</sub>
+<sub>🟣 22h ago</sub>
 
 </td>
 
@@ -38,20 +51,7 @@ AP Dhillon & Shreya Ghoshal
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 23h ago</sub>
-
-</td>
-
-<td align="center">
-
-<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
-
-<br/>
-
-**🎵 No track**
-No artist
-
-<sub>🟣 -</sub>
+<sub>🟣 1d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-04-30 05:42 UTC</sub>
+  <sub>⏱ Last updated: 2026-04-30 08:07 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
