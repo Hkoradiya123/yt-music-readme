@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/kyxbSnL8uk_sHtH2TSsVhiMbKm4HThBZkvab30W3v9CyKMB8ZbZ44m4fvnn4BdJdICOlIr_EpAb63zxE=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://i.ytimg.com/vi/i52TYO13Nyg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAMvX36gdiYyaWv_FAg5boSvvfx9g" width="120" height="120"/>
 
 <br/>
 
-**🎵 Ve Haaniyaan**
-Danny, Avvy Sra, & Sagar
+**🎵 SHEESHA**
+Swara Verma & Mitta Ror
 
-<sub>🟣 24m ago</sub>
+<sub>🟣 41m ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-01 11:36 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-01 13:01 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
