@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/BIIF_2eBIIue6StUB-rYrEa48e9gj0p42l6xl1_EALf0g9D-pIG7bK3Wn15i1DdJ0jrKLwuLyKjxz2Oh=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://lh3.googleusercontent.com/RtrisEbMpw0qvN904DsYH4vOMyqHrwPoVlRM_tUcZL0OLqHs_IwPb-F6N_YlBqsqHGfCZdDL-o-99jsl=w544-h544-l90-rj" width="120" height="120"/>
 
 <br/>
 
-**🎵 Zulfein**
-Mehul Mahesh and Dj AYnik
+**🎵 Afsos**
+Anuv Jain & AP Dhillon
 
-<sub>🟣 1d ago</sub>
+<sub>🟣 40s ago</sub>
 
 </td>
 
@@ -51,7 +51,7 @@ AP Dhillon & Shreya Ghoshal
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 1d ago</sub>
+<sub>🟣 2d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-01 05:52 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-01 08:04 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
