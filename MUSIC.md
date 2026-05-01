@@ -16,19 +16,6 @@
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/RtrisEbMpw0qvN904DsYH4vOMyqHrwPoVlRM_tUcZL0OLqHs_IwPb-F6N_YlBqsqHGfCZdDL-o-99jsl=w544-h544-l90-rj" width="120" height="120"/>
-
-<br/>
-
-**🎵 Afsos**
-Anuv Jain & AP Dhillon
-
-<sub>🟣 40s ago</sub>
-
-</td>
-
-<td align="center">
-
 <img src="https://i.ytimg.com/vi/slM5s55Jz0k/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAtTIY1g8JI9e5-516erUgobKtgkA" width="120" height="120"/>
 
 <br/>
@@ -36,7 +23,7 @@ Anuv Jain & AP Dhillon
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 1d ago</sub>
+<sub>🟣 2d ago</sub>
 
 </td>
 
@@ -53,11 +40,24 @@ Swara Verma & Mitta Ror
 
 </td>
 
+<td align="center">
+
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
+
+<br/>
+
+**🎵 No track**
+No artist
+
+<sub>🟣 -</sub>
+
+</td>
+
 </tr>
 </table>
 
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-01 08:04 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-01 10:02 UTC</sub>
 </p>
