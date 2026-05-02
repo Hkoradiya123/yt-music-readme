@@ -25,7 +25,7 @@
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 21h ago</sub>
+<sub>🟣 22h ago</sub>
 
 </td>
 
@@ -38,7 +38,7 @@ Swara Verma & Mitta Ror
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 2d ago</sub>
+<sub>🟣 3d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-02 09:38 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-02 10:43 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
