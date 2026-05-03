@@ -38,7 +38,7 @@ Swara Verma & Mitta Ror
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 3d ago</sub>
+<sub>🟣 4d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-03 09:16 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-03 10:29 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
