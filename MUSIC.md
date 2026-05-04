@@ -16,27 +16,27 @@
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/RBCk1SyC1PA/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AOn4CLBqY5uu9Dj6TpZXaBEJNlqOTYtJnA" width="120" height="120"/>
+<img src="https://yt3.googleusercontent.com/-uj9zg2v_2aqLB6ym1wmHjEWKT4-FIatr6bceuExDuoA99gTJq0EIkKZA1mngxYGpC9Sp0UrsAy1qSwt=w544-h544-l90-rj" width="120" height="120"/>
 
 <br/>
 
-**🎵 Arijit Singh**
-Main Rang Sharbaton Ka
+**🎵 Ranjheya Ve**
+Zain Zohaib
 
-<sub>🟣 28m ago</sub>
+<sub>🟣 40m ago</sub>
 
 </td>
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/slM5s55Jz0k/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAtTIY1g8JI9e5-516erUgobKtgkA" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 Thodi Si Daaru**
-AP Dhillon & Shreya Ghoshal
+**🎵 No track**
+No artist
 
-<sub>🟣 5d ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-04 19:45 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-04 21:00 UTC</sub>
 </p>
