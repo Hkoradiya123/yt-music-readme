@@ -25,7 +25,7 @@
 **🎵 Cheques**
 Shubh
 
-<sub>🟣 1h ago</sub>
+<sub>🟣 3h ago</sub>
 
 </td>
 
@@ -38,7 +38,7 @@ Shubh
 **🎵 Thodi Si Daaru**
 AP Dhillon & Shreya Ghoshal
 
-<sub>🟣 4d ago</sub>
+<sub>🟣 5d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-04 08:20 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-04 10:30 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
