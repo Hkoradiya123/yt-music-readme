@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/i52TYO13Nyg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAMvX36gdiYyaWv_FAg5boSvvfx9g" width="120" height="120"/>
+<img src="https://i.ytimg.com/vi/4tywp83zkmk/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLD53zDoDcerfJY_WtiEAnqp0Sza1A" width="120" height="120"/>
 
 <br/>
 
-**🎵 SHEESHA**
-Swara Verma & Mitta Ror
+**🎵 Cheques**
+Shubh
 
-<sub>🟣 2d ago</sub>
+<sub>🟣 1h ago</sub>
 
 </td>
 
@@ -51,7 +51,7 @@ AP Dhillon & Shreya Ghoshal
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 4d ago</sub>
+<sub>🟣 5d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-04 05:47 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-04 08:20 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
