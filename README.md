@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/4tywp83zkmk/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLD53zDoDcerfJY_WtiEAnqp0Sza1A" width="120" height="120"/>
+<img src="https://i.ytimg.com/vi/RBCk1SyC1PA/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AOn4CLBqY5uu9Dj6TpZXaBEJNlqOTYtJnA" width="120" height="120"/>
 
 <br/>
 
-**🎵 Cheques**
-Shubh
+**🎵 Arijit Singh**
+Main Rang Sharbaton Ka
 
-<sub>🟣 10h ago</sub>
+<sub>🟣 28m ago</sub>
 
 </td>
 
@@ -44,14 +44,14 @@ AP Dhillon & Shreya Ghoshal
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/i52TYO13Nyg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLAMvX36gdiYyaWv_FAg5boSvvfx9g" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 SHEESHA**
-Swara Verma & Mitta Ror
+**🎵 No track**
+No artist
 
-<sub>🟣 5d ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ Swara Verma & Mitta Ror
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-04 17:59 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-04 19:45 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
