@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://yt3.googleusercontent.com/-uj9zg2v_2aqLB6ym1wmHjEWKT4-FIatr6bceuExDuoA99gTJq0EIkKZA1mngxYGpC9Sp0UrsAy1qSwt=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 Ranjheya Ve**
-Zain Zohaib
+**🎵 No track**
+No artist
 
-<sub>🟣 11h ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-05 07:30 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-05 09:56 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
