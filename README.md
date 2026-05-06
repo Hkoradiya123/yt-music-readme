@@ -25,7 +25,7 @@
 **🎵 Version 2 (Gravero Mashup)**
 Let Her Go x Husn
 
-<sub>🟣 10m ago</sub>
+<sub>🟣 1h ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-06 20:07 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-06 21:37 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
