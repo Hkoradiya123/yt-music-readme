@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/3qn5tkBOPtM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLD9a5OVu3H52hoReUjEaO5pDHnwKA" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 Favorite Part Of Me**
-Astrid S
+**🎵 No track**
+No artist
 
-<sub>🟣 1m ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-06 12:24 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-06 15:08 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
