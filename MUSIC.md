@@ -16,14 +16,14 @@
 
 <td align="center">
 
-<img src="https://i.ytimg.com/vi/fF4XYwZtKb0/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLDDglNnw5H_4QYI8poRn4vSWazQjQ" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 Version 2 (Gravero Mashup)**
-Let Her Go x Husn
+**🎵 No track**
+No artist
 
-<sub>🟣 9h ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-07 05:44 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-07 08:21 UTC</sub>
 </p>
