@@ -16,14 +16,14 @@
 
 <td align="center">
 
-<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
+<img src="https://coverartarchive.org/release/71d62861-7a9b-4580-8aea-2ea9bd86509c/front-500" width="120" height="120"/>
 
 <br/>
 
-**🎵 No track**
-No artist
+**🎵 Mega Mashup**
+Saiyaara x Pal Pal
 
-<sub>🟣 -</sub>
+<sub>🟣 56m ago</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-12 10:58 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-12 13:05 UTC</sub>
 </p>
