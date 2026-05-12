@@ -23,7 +23,7 @@
 **🎵 Zaroorat**
 Mustafa Zahid
 
-<sub>🟣 7h ago</sub>
+<sub>🟣 8h ago</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-12 21:18 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-12 22:39 UTC</sub>
 </p>
