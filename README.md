@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://lastfm.freetls.fastly.net/i/u/300x300/4e4841a007388d7bae95119a43208589.png" width="120" height="120"/>
+<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
 
 <br/>
 
-**🎵 Tu hai kahan**
-AUR
+**🎵 No track**
+No artist
 
-<sub>🟣 1h ago</sub>
+<sub>🟣 -</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-12 08:29 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-12 10:58 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
