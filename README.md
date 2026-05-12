@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://coverartarchive.org/release/71d62861-7a9b-4580-8aea-2ea9bd86509c/front-500" width="120" height="120"/>
+<img src="https://lh3.googleusercontent.com/dxV5Giyiw0e-0ct5Hsq_8RvxypA19fFo51GjPi1gRqhfAF9LmlfU7QKQPhB09iSXAr-DXx4BGcJLUqmT=w544-h544-l90-rj" width="120" height="120"/>
 
 <br/>
 
-**🎵 Mega Mashup**
-Saiyaara x Pal Pal
+**🎵 Zaroorat**
+Mustafa Zahid
 
-<sub>🟣 56m ago</sub>
+<sub>🟣 2h ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-12 13:05 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-12 15:58 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
