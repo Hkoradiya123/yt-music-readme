@@ -18,14 +18,14 @@
 
 <td align="center">
 
-<img src="https://lh3.googleusercontent.com/dxV5Giyiw0e-0ct5Hsq_8RvxypA19fFo51GjPi1gRqhfAF9LmlfU7QKQPhB09iSXAr-DXx4BGcJLUqmT=w544-h544-l90-rj" width="120" height="120"/>
+<img src="https://i.ytimg.com/vi/RGqgtleddRk/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLBd-AsvM0_0kylk6vsXr4gbLDmbJQ" width="120" height="120"/>
 
 <br/>
 
-**🎵 Zaroorat**
-Mustafa Zahid
+**🎵 Phool**
+AUR
 
-<sub>🟣 16h ago</sub>
+<sub>🟣 just now</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-13 06:02 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-13 09:23 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
