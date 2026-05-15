@@ -16,14 +16,14 @@
 
 <td align="center">
 
-<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
+<img src="https://coverartarchive.org/release/3fe906ba-04d6-4f44-885f-d9861fdb8f03/front-500" width="120" height="120"/>
 
 <br/>
 
-**🎵 No track**
-No artist
+**🎵 SHEESHA**
+Swara Verma & Mitta Ror
 
-<sub>🟣 -</sub>
+<sub>🟣 31m ago</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-15 11:33 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-15 13:47 UTC</sub>
 </p>
