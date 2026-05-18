@@ -16,6 +16,19 @@
 
 <td align="center">
 
+<img src="https://lastfm.freetls.fastly.net/i/u/300x300/35d539446a1a555021a913e8c3f59c0e.png" width="120" height="120"/>
+
+<br/>
+
+**🎵 Faasle**
+Aditya Rikhari
+
+<sub>🟣 3m ago</sub>
+
+</td>
+
+<td align="center">
+
 <img src="https://coverartarchive.org/release/3fe906ba-04d6-4f44-885f-d9861fdb8f03/front-500" width="120" height="120"/>
 
 <br/>
@@ -40,24 +53,11 @@ No artist
 
 </td>
 
-<td align="center">
-
-<img src="https://via.placeholder.com/300x300?text=No+Cover" width="120" height="120"/>
-
-<br/>
-
-**🎵 No track**
-No artist
-
-<sub>🟣 -</sub>
-
-</td>
-
 </tr>
 </table>
 
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-18 05:41 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-18 09:43 UTC</sub>
 </p>
