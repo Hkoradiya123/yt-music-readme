@@ -23,7 +23,7 @@
 **🎵 Bairan**
 Banjaare
 
-<sub>🟣 2h ago</sub>
+<sub>🟣 5h ago</sub>
 
 </td>
 
@@ -36,7 +36,7 @@ Banjaare
 **🎵 SHEESHA**
 Swara Verma & Mitta Ror
 
-<sub>🟣 6d ago</sub>
+<sub>🟣 1w ago</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-22 12:37 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-22 15:45 UTC</sub>
 </p>
