@@ -25,7 +25,7 @@
 **🎵 Bairan**
 Banjaare
 
-<sub>🟣 6d ago</sub>
+<sub>🟣 1w ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-05-29 06:47 UTC</sub>
+  <sub>⏱ Last updated: 2026-05-29 10:39 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
