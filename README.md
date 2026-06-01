@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-06-01 00:00 UTC</sub>
+  <sub>⏱ Last updated: 2026-06-01 04:53 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
