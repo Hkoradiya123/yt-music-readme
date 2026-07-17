@@ -23,7 +23,7 @@
 **🎵 Aankhon Se Batana**
 Indie Hits
 
-<sub>🟣 6d ago</sub>
+<sub>🟣 1w ago</sub>
 
 </td>
 
@@ -59,5 +59,5 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-07-17 17:03 UTC</sub>
+  <sub>⏱ Last updated: 2026-07-17 18:31 UTC</sub>
 </p>
