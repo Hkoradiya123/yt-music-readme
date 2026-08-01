@@ -25,7 +25,7 @@
 **🎵 Majboor (Unplugged)**
 Sheheryar Rehan and Zoha Waseem
 
-<sub>🟣 5d ago</sub>
+<sub>🟣 6d ago</sub>
 
 </td>
 
@@ -61,7 +61,7 @@ No artist
 ---
 
 <p align="center">
-  <sub>⏱ Last updated: 2026-08-01 13:02 UTC</sub>
+  <sub>⏱ Last updated: 2026-08-01 14:42 UTC</sub>
 </p>
 
 <!-- MUSIC:END -->
